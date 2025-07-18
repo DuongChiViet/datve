@@ -1,0 +1,13 @@
+/* Custom styles if needed */
+.theater-layout {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .theater-layout {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}

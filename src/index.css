@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+.abc {
+    background: url("./img/banner.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
